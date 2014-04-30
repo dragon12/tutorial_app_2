@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-TutorialApp2.config.secret_key_base = secure_token
+TutorialApp2::Application.config.secret_key_base = secure_token
